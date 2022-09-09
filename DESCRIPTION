@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lilli",
+           family = "Urenda",
+           role = c("aut", "cre"),
+           email = "lurenda@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The Monty Hall game is played by having a game contestant make an initial selection of one of three doors. Two of the doors have a goat behind it and one of the doors has the prize, a car, behind it. The host then opens one of the doors which will not contain the prize of the car. Should the contestant switch to the other unopened door, or stay with their inital selection? This R package allows the user to explore the probability of winning the prize or losing a Monty Hall game through a game, or loop of games, showing the game results.
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
